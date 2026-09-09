@@ -1,0 +1,51 @@
+countdown:
+  default-seconds: 10
+
+sounds:
+  tick:
+    enabled: true
+    sound: BLOCK_NOTE_BLOCK_PLING
+    pitch-increase: true
+    base-pitch: 1.0
+    volume: 1.0
+  finish:
+    enabled: true
+    sound: ENTITY_ENDER_DRAGON_GROWL
+    pitch: 1.0
+    volume: 1.5
+
+title:
+  enabled: true
+  fade-in: 0
+  stay: 25
+  fade-out: 5
+  title-text: "&c&lSUNUCU DURDURULUYOR"
+  subtitle-text: "&eKalan Sure: &c&l%seconds% &esaniye"
+  finish-title: "&4&lSUNUCU KAPATILDI!"
+  finish-subtitle: "&cVeriler kaydediliyor..."
+
+actionbar:
+  enabled: true
+  text: "&eSunucu &c&l%seconds% &esaniye icinde durdurulacak!"
+
+chat:
+  broadcast-every-second: false
+  broadcast-seconds: [60, 30, 15, 10, 5, 4, 3, 2, 1]
+  message: "&c&l[DUYURU] &7Sunucu &e%seconds% &7saniye sonra kapatilacaktir!"
+
+shutdown:
+  kick-players: true
+  kick-message: "&c&lSUNUCU DURDURULDU\n\n&7Sunucu bakim veya yeniden baslatma icin kapatildi.\n&eLutfen kisa bir sure sonra tekrar baglanin!"
+  commands:
+    - "save-all"
+    - "stop"
+
+messages:
+  already-running: "&cZaten devam eden bir geri sayim var! Iptal etmek icin: &e/countstop cancel"
+  started: "&aGeri sayim &e%seconds% &asaniye olarak baslatildi!"
+  not-running: "&cSu anda aktif bir geri sayim bulunmuyor!"
+  cancelled: "&aGeri sayim basariyla iptal edildi!"
+  cancelled-broadcast: "&a&l[BILGI] &7Sunucu durdurma geri sayimi iptal edildi!"
+  reload: "&aStopCountdown yapilandirmasi basariyla yenilendi!"
+  no-permission: "&cBu komutu kullanmak icin yetkiniz yok!"
+  invalid-number: "&cLutfen gecerli bir saniye sayisi girin!"

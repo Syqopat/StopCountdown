@@ -1,0 +1,12 @@
+name: StopCountdown
+version: 1.0.0
+main: com.example.stopcountdown.StopCountdown
+api-version: '26.2'
+commands:
+  countstop:
+    description: Sunucu durdurma geri sayimini baslatir veya iptal eder
+    aliases: [stopcountdown, cstop]
+    permission: stopcountdown.admin
+permissions:
+  stopcountdown.admin:
+    default: op
