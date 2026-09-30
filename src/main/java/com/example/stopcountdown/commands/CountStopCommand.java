@@ -1,4 +1,4 @@
-package com.example.stopcountdown.commands;
+﻿package com.example.stopcountdown.commands;
 
 import com.example.stopcountdown.StopCountdown;
 import com.example.stopcountdown.managers.ConfigManager;

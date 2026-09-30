@@ -1,4 +1,4 @@
-package com.example.stopcountdown.managers;
+﻿package com.example.stopcountdown.managers;
 
 import com.example.stopcountdown.StopCountdown;
 import net.md_5.bungee.api.ChatMessageType;
